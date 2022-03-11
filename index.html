@@ -61,7 +61,7 @@
     <section class="container">
         <h1 class="text-center my-5">Conceptual Question & Answer</h1>
         <div>
-            <strong>Q1: How does JavaScript work?</strong>
+            <h4>Q1: How does JavaScript work?</h4>
             <p>
                 Ans: JavaScript is a single-threaded, dynamic typing, interpreted programming language. In the browser,
                 JavaScript code is run by a JavaScript engine. Like, Chrome uses V8 engine; Firefox uses SpiderMonkey
@@ -72,8 +72,24 @@
             </p>
         </div>
         <div>
-            <strong>Q2: What does JavaScript event loop do?</strong>
-            <p>Ans: </p>
+            <h4>Q2: What does JavaScript event loop do?</h4>
+            <p>
+                Ans: JavaScript event loop maintains all the event which is happening in JavaScript code. JavaScript
+                executes one script at a time & continues to execute the code one by one. When a function is called to
+                execute, it is added to the call stack. If another function is called from inside of the existing
+                function, then it's added top of the previous function in the call stack. Now, after executing the
+                second function, the stack will pop it out and the first function will be executed and will be popped
+                out. If any function takes too much time to execute then JavaScript would not stop executing other code.
+                It will continue to execute the upcoming script and when the function finishes executing, the result
+                will be shown. After executing all the functions in the call stack, the functions will be popped out and
+                the stack will remain empty. This is what the JavaScript event loop does.
+            </p>
+        </div>
+        <div>
+            <h4>Q3: Difference between Local storage and Session storage.</h4>
+            <p>
+
+            </p>
         </div>
     </section>
     <footer></footer>
